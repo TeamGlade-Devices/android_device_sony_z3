@@ -27,6 +27,7 @@ BOARD_HARDWARE_CLASS += device/sony/z3/cmhw
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_shinano_leo_defconfig
+ENABLE_GRAPHITE := true
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 25
