@@ -1409,9 +1409,9 @@
     <path name="speaker-mic">
         <path name="adc1" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x153 -->
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC1 Volume" value="20" />
         <!-- 66 % of 124 (range 0 - 124) Register: 0x249 -->
-        <ctl name="DEC6 Volume" value="82" />
+        <ctl name="DEC6 Volume" value="90" />
     </path>
 
     <path name="stereo-mic">
@@ -1447,7 +1447,7 @@
 
     <path name="speaker-mic-liquid">
         <path name="dmic1" />
-        <ctl name="DEC9 Volume" value="111" />
+        <ctl name="DEC9 Volume" value="120" />
     </path>
 
     <path name="speaker-mic-DB">
@@ -1455,7 +1455,7 @@
         <ctl name="SLIM_0_TX Channels" value="One" />
         <ctl name="SLIM TX7 MUX" value="DEC6" />
         <ctl name="DEC6 MUX" value="ADC1" />
-        <ctl name="ADC1 Volume" value="124" />
+        <ctl name="ADC1 Volume" value="130" />
         <ctl name="IIR1 INP1 MUX" value="DEC7" />
     </path>
 
@@ -1464,7 +1464,7 @@
         <ctl name="SLIM_0_RX Channels" value="One" />
         <ctl name="RX7 MIX1 INP1" value="RX1" />
         <!-- 54 % of 124 (range 0 - 124) Register: 0x2E7 -->
-        <ctl name="RX7 Digital Volume" value="67" />
+        <ctl name="RX7 Digital Volume" value="92" />
         <ctl name="COMP0 Switch" value="1" />
     </path>
 
@@ -1481,25 +1481,25 @@
     <path name="handset-mic">
         <path name="adc4" />
         <!-- 67 % of 124 (range 0 - 124) Register: 0x231 -->
-        <ctl name="DEC3 Volume" value="83" />
+        <ctl name="DEC3 Volume" value="85" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="14" />
     </path>
 
     <path name="handset-mic-asr">
         <path name="adc4" />
         <!-- 66 % of 124 (range 0 - 124) Register: 0x231 -->
-        <ctl name="DEC3 Volume" value="82" />
+        <ctl name="DEC3 Volume" value="84" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="14" />
     </path>
 
     <path name="handset-secondary-mic">
         <path name="adc1" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x153 -->
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC1 Volume" value="14" />
         <!-- 67 % of 124 (range 0 - 124) Register: 0x249 -->
-        <ctl name="DEC6 Volume" value="83" />
+        <ctl name="DEC6 Volume" value="85" />
     </path>
 
     <path name="anc-handset">
@@ -1519,9 +1519,9 @@
         <!--75 % of 20 register: 0x1B4-->
         <ctl name="HPHR Volume" value="15" />
         <!--66 % of 124 (rounded) register: 0x2B7-->
-        <ctl name="RX1 Digital Volume" value="82" />
+        <ctl name="RX1 Digital Volume" value="84" />
         <!--66 % of 124 (rounded) register: 0x2BF-->
-        <ctl name="RX2 Digital Volume" value="82" />
+        <ctl name="RX2 Digital Volume" value="84" />
     </path>
 
     <path name="headphones-mono">
@@ -1532,7 +1532,7 @@
         <!--80 % of 124 (rounded) register: 0x241-->
         <ctl name="DEC5 Volume" value="99" />
         <!--42 % of 19 (rounded) register: 0x155-->
-        <ctl name="ADC2 Volume" value="8" />
+        <ctl name="ADC2 Volume" value="14" />
         <path name="adc2" />
     </path>
 
@@ -1542,12 +1542,12 @@
 
     <path name="headset-mic-DB">
         <path name="adc2" />
-        <ctl name="ADC2 Volume" value="14" />
+        <ctl name="ADC2 Volume" value="18" />
     </path>
 
     <path name="headset-mic-liquid">
         <path name="adc2" />
-        <ctl name="ADC2 Volume" value="20" />
+        <ctl name="ADC2 Volume" value="24" />
     </path>
 
     <path name="voice-handset">
@@ -1821,15 +1821,15 @@
         <ctl name="SLIM TX7 MUX" value="DEC6" />
         <ctl name="DEC6 MUX" value="ADC1" />
         <!-- 65 % of 124 (range 0 - 124) Register: 0x249 -->
-        <ctl name="DEC6 Volume" value="81" />
+        <ctl name="DEC6 Volume" value="82" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x153 -->
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC1 Volume" value="14" />
         <ctl name="SLIM TX8 MUX" value="DEC3" />
         <ctl name="DEC3 MUX" value="ADC4" />
         <!-- 68 % of 124 (range 0 - 124) Register: 0x231 -->
-        <ctl name="DEC3 Volume" value="84" />
+        <ctl name="DEC3 Volume" value="86" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="14" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
 
@@ -1911,15 +1911,15 @@
         <ctl name="SLIM TX7 MUX" value="DEC3" />
         <ctl name="DEC3 MUX" value="ADC4" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="14" />
         <!-- 67 % of 124 (range 0 - 124) Register: 0x231 -->
-        <ctl name="DEC3 Volume" value="83" />
+        <ctl name="DEC3 Volume" value="85" />
         <ctl name="SLIM TX8 MUX" value="DEC6" />
         <ctl name="DEC6 MUX" value="ADC1" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x153 -->
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC1 Volume" value="14" />
         <!-- 67 % of 124 (range 0 - 124) Register: 0x249 -->
-        <ctl name="DEC6 Volume" value="83" />
+        <ctl name="DEC6 Volume" value="85" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
 
@@ -1939,15 +1939,15 @@
         <ctl name="SLIM TX7 MUX" value="DEC2" />
         <ctl name="DEC2 MUX" value="ADC5" />
         <!-- 66 % of 19 (range 0 - 19) Register: 0x229 -->
-        <ctl name="DEC2 Volume" value="13" />
+        <ctl name="DEC2 Volume" value="15" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x167 -->
-        <ctl name="ADC5 Volume" value="12" />
+        <ctl name="ADC5 Volume" value="14" />
         <ctl name="SLIM TX8 MUX" value="DEC3" />
         <ctl name="DEC3 MUX" value="ADC4" />
         <!-- 66 % of 124 (range 0 - 124) Register: 0x231 -->
-        <ctl name="DEC3 Volume" value="82" />
+        <ctl name="DEC3 Volume" value="84" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="14" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
 
@@ -1961,15 +1961,15 @@
         <ctl name="SLIM TX7 MUX" value="DEC3" />
         <ctl name="DEC3 MUX" value="ADC4" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="14" />
         <!-- 67 % of 124 (range 0 - 124) Register: 0x231 -->
-        <ctl name="DEC3 Volume" value="83" />
+        <ctl name="DEC3 Volume" value="85" />
         <ctl name="SLIM TX8 MUX" value="DEC6" />
         <ctl name="DEC6 MUX" value="ADC1" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x153 -->
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC1 Volume" value="14" />
         <!-- 67 % of 124 (range 0 - 124) Register: 0x249 -->
-        <ctl name="DEC6 Volume" value="83" />
+        <ctl name="DEC6 Volume" value="85" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
         <ctl name="IIR1 INP1 MUX" value="DEC3" />
     </path>
@@ -1985,15 +1985,15 @@
         <ctl name="SLIM TX8 MUX" value="DEC6" />
         <ctl name="DEC6 MUX" value="ADC1" />
         <!-- 66 % of 124 (range 0 - 124) Register: 0x249 -->
-        <ctl name="DEC6 Volume" value="82" />
+        <ctl name="DEC6 Volume" value="84" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x153 -->
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC1 Volume" value="14" />
         <ctl name="SLIM TX7 MUX" value="DEC3" />
         <ctl name="DEC3 MUX" value="ADC4" />
         <!-- 66 % of 124 (range 0 - 124) Register: 0x231 -->
-        <ctl name="DEC3 Volume" value="82" />
+        <ctl name="DEC3 Volume" value="84" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="14" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
 
@@ -2003,15 +2003,15 @@
         <ctl name="SLIM TX7 MUX" value="DEC2" />
         <ctl name="DEC2 MUX" value="ADC5" />
         <!-- 66 % of 19 (range 0 - 19) Register: 0x229 -->
-        <ctl name="DEC2 Volume" value="13" />
+        <ctl name="DEC2 Volume" value="15" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x167 -->
-        <ctl name="ADC5 Volume" value="12" />
+        <ctl name="ADC5 Volume" value="14" />
         <ctl name="SLIM TX8 MUX" value="DEC3" />
         <ctl name="DEC3 MUX" value="ADC4" />
         <!-- 66 % of 124 (range 0 - 124) Register: 0x231 -->
-        <ctl name="DEC3 Volume" value="82" />
+        <ctl name="DEC3 Volume" value="84" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="14" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
 
@@ -2041,15 +2041,15 @@
         <ctl name="SLIM TX7 MUX" value="DEC3" />
         <ctl name="DEC3 MUX" value="ADC4" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="14" />
         <!-- 67 % of 124 (range 0 - 124) Register: 0x231 -->
-        <ctl name="DEC3 Volume" value="83" />
+        <ctl name="DEC3 Volume" value="85" />
         <ctl name="SLIM TX8 MUX" value="DEC2" />
         <ctl name="DEC2 MUX" value="ADC5" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x167 -->
-        <ctl name="ADC5 Volume" value="12" />
+        <ctl name="ADC5 Volume" value="14" />
         <!-- 67 % of 19 (range 0 - 19) Register: 0x229 -->
-        <ctl name="DEC2 Volume" value="13" />
+        <ctl name="DEC2 Volume" value="15" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
         <ctl name="IIR1 INP1 MUX" value="DEC3" />
     </path>
@@ -2060,15 +2060,15 @@
         <ctl name="SLIM TX7 MUX" value="DEC3" />
         <ctl name="DEC3 MUX" value="ADC4" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x15F -->
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="14" />
         <!-- 67 % of 124 (range 0 - 124) Register: 0x231 -->
-        <ctl name="DEC3 Volume" value="83" />
+        <ctl name="DEC3 Volume" value="85" />
         <ctl name="SLIM TX8 MUX" value="DEC2" />
         <ctl name="DEC2 MUX" value="ADC5" />
         <!-- 63 % of 19 (range 0 - 19) Register: 0x167 -->
-        <ctl name="ADC5 Volume" value="12" />
+        <ctl name="ADC5 Volume" value="14" />
         <!-- 67 % of 19 (range 0 - 19) Register: 0x229 -->
-        <ctl name="DEC2 Volume" value="13" />
+        <ctl name="DEC2 Volume" value="15" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
 
@@ -2077,12 +2077,12 @@
         <ctl name="AIF1_CAP Mixer SLIM TX8" value="1" />
         <ctl name="SLIM TX7 MUX" value="DEC4" />
         <ctl name="DEC4 MUX" value="ADC3" />
-        <ctl name="DEC4 Volume" value="84" />
-        <ctl name="ADC3 Volume" value="3" />
+        <ctl name="DEC4 Volume" value="86" />
+        <ctl name="ADC3 Volume" value="5" />
         <ctl name="SLIM TX8 MUX" value="DEC5" />
         <ctl name="DEC5 MUX" value="ADC2" />
-        <ctl name="DEC5 Volume" value="84" />
-        <ctl name="ADC2 Volume" value="3" />
+        <ctl name="DEC5 Volume" value="86" />
+        <ctl name="ADC2 Volume" value="5" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
     </path>
 
@@ -2192,9 +2192,9 @@
         <!--50 % of 20 register: 0x1B4-->
         <ctl name="HPHR Volume" value="10" />
         <!--68 % of 124 (rounded) register: 0x2B7-->
-        <ctl name="RX1 Digital Volume" value="84" />
+        <ctl name="RX1 Digital Volume" value="86" />
         <!--68 % of 124 (rounded) register: 0x2BF-->
-        <ctl name="RX2 Digital Volume" value="84" />
+        <ctl name="RX2 Digital Volume" value="86" />
     </path>
 
     <path name="voice-tty-full-headphones">
@@ -2230,9 +2230,9 @@
         <ctl name="SLIM TX7 MUX" value="DEC8" />
         <ctl name="DEC8 MUX" value="ADC2" />
         <!--66 % of 124 (rounded) register: 0x259-->
-        <ctl name="DEC8 Volume" value="82" />
+        <ctl name="DEC8 Volume" value="84" />
         <!--63 % of 19 (rounded) register: 0x155-->
-        <ctl name="ADC2 Volume" value="12" />
+        <ctl name="ADC2 Volume" value="14" />
     </path>
 
     <path name="voice-tty-hco-headset-mic">
@@ -2242,9 +2242,9 @@
         <ctl name="SLIM TX7 MUX" value="DEC8" />
         <ctl name="DEC8 MUX" value="ADC2" />
         <!--66 % of 124 (rounded) register: 0x259-->
-        <ctl name="DEC8 Volume" value="82" />
+        <ctl name="DEC8 Volume" value="84" />
         <!--63 % of 19 (rounded) register: 0x155-->
-        <ctl name="ADC2 Volume" value="12" />
+        <ctl name="ADC2 Volume" value="14" />
     </path>
 
     <path name="voice-tty-vco-handset-mic">
@@ -2301,8 +2301,8 @@
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-        <ctl name="RX1 Digital Volume" value="77" />
-        <ctl name="RX2 Digital Volume" value="77" />
+        <ctl name="RX1 Digital Volume" value="79" />
+        <ctl name="RX2 Digital Volume" value="79" />
     </path>
 
     <path name="anc-nc-off-headphone">
@@ -2316,57 +2316,57 @@
     <path name="speaker-anc-nc-headphone">
         <path name="speaker" />
         <path name="anc-nc-headphone" />
-        <ctl name="RX1 Digital Volume" value="55" />
-        <ctl name="RX2 Digital Volume" value="55" />
+        <ctl name="RX1 Digital Volume" value="57" />
+        <ctl name="RX2 Digital Volume" value="57" />
     </path>
 
     <path name="speaker-anc-nce-headphone">
         <path name="speaker" />
         <path name="anc-nce-headphone" />
-        <ctl name="RX1 Digital Volume" value="55" />
-        <ctl name="RX2 Digital Volume" value="55" />
+        <ctl name="RX1 Digital Volume" value="57" />
+        <ctl name="RX2 Digital Volume" value="57" />
     </path>
 
     <path name="speaker-anc-nc-off-headphone">
         <path name="speaker" />
         <path name="anc-nc-off-headphone" />
-        <ctl name="RX1 Digital Volume" value="55" />
-        <ctl name="RX2 Digital Volume" value="55" />
+        <ctl name="RX1 Digital Volume" value="57" />
+        <ctl name="RX2 Digital Volume" value="57" />
     </path>
 
     <path name="speaker-anc-nce-off-headphone">
         <path name="speaker" />
         <path name="anc-nce-off-headphone" />
-        <ctl name="RX1 Digital Volume" value="55" />
-        <ctl name="RX2 Digital Volume" value="55" />
+        <ctl name="RX1 Digital Volume" value="57" />
+        <ctl name="RX2 Digital Volume" value="57" />
     </path>
 
     <path name="speaker-ring-anc-nc-headphone">
         <path name="ringtone-speaker" />
         <path name="anc-nc-headphone" />
-        <ctl name="RX1 Digital Volume" value="55" />
-        <ctl name="RX2 Digital Volume" value="55" />
+        <ctl name="RX1 Digital Volume" value="57" />
+        <ctl name="RX2 Digital Volume" value="57" />
     </path>
 
     <path name="speaker-ring-anc-nce-headphone">
         <path name="ringtone-speaker" />
         <path name="anc-nce-headphone" />
-        <ctl name="RX1 Digital Volume" value="55" />
-        <ctl name="RX2 Digital Volume" value="55" />
+        <ctl name="RX1 Digital Volume" value="57" />
+        <ctl name="RX2 Digital Volume" value="57" />
     </path>
 
     <path name="speaker-ring-anc-nc-off-headphone">
         <path name="ringtone-speaker" />
         <path name="anc-nc-off-headphone" />
-        <ctl name="RX1 Digital Volume" value="55" />
-        <ctl name="RX2 Digital Volume" value="55" />
+        <ctl name="RX1 Digital Volume" value="57" />
+        <ctl name="RX2 Digital Volume" value="57" />
     </path>
 
     <path name="speaker-ring-anc-nce-off-headphone">
         <path name="ringtone-speaker" />
         <path name="anc-nce-off-headphone" />
-        <ctl name="RX1 Digital Volume" value="55" />
-        <ctl name="RX2 Digital Volume" value="55" />
+        <ctl name="RX1 Digital Volume" value="57" />
+        <ctl name="RX2 Digital Volume" value="57" />
     </path>
 
     <path name="voiceanc-headphone">
@@ -2381,8 +2381,8 @@
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-        <ctl name="RX1 Digital Volume" value="90" />
-        <ctl name="RX2 Digital Volume" value="90" />
+        <ctl name="RX1 Digital Volume" value="92" />
+        <ctl name="RX2 Digital Volume" value="92" />
     </path>
 
     <path name="voiceanc-headphone-eq1">
@@ -2397,8 +2397,8 @@
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-        <ctl name="RX1 Digital Volume" value="90" />
-        <ctl name="RX2 Digital Volume" value="90" />
+        <ctl name="RX1 Digital Volume" value="92" />
+        <ctl name="RX2 Digital Volume" value="92" />
     </path>
 
     <path name="voiceanc-headphone-eq2">
@@ -2413,8 +2413,8 @@
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-        <ctl name="RX1 Digital Volume" value="90" />
-        <ctl name="RX2 Digital Volume" value="90" />
+        <ctl name="RX1 Digital Volume" value="92" />
+        <ctl name="RX2 Digital Volume" value="92" />
     </path>
 
     <path name="voiceanc-headphone-wv">
@@ -2429,8 +2429,8 @@
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-        <ctl name="RX1 Digital Volume" value="90" />
-        <ctl name="RX2 Digital Volume" value="90" />
+        <ctl name="RX1 Digital Volume" value="92" />
+        <ctl name="RX2 Digital Volume" value="92" />
     </path>
 
     <path name="voiceanc-headphone-eq1-wv">
@@ -2445,8 +2445,8 @@
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-        <ctl name="RX1 Digital Volume" value="90" />
-        <ctl name="RX2 Digital Volume" value="90" />
+        <ctl name="RX1 Digital Volume" value="92" />
+        <ctl name="RX2 Digital Volume" value="92" />
     </path>
 
     <path name="voiceanc-headphone-eq2-wv">
@@ -2461,8 +2461,8 @@
         <ctl name="COMP1 Switch" value="0" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-        <ctl name="RX1 Digital Volume" value="90" />
-        <ctl name="RX2 Digital Volume" value="90" />
+        <ctl name="RX1 Digital Volume" value="92" />
+        <ctl name="RX2 Digital Volume" value="92" />
     </path>
 
     <path name="voiceanc-headset">
@@ -2474,9 +2474,9 @@
         <ctl name="IIR2 Enable Band4" value="1" />
         <ctl name="IIR2 Enable Band5" value="1" />
         <!-- 45 % of 124 (range 0 - 124) Register: 0x350 -->
-        <ctl name="IIR2 INP1 Volume" value="84" />
+        <ctl name="IIR2 INP1 Volume" value="86" />
         <!-- 45 % of 124 (range 0 - 124) Register: 0x351 -->
-        <ctl name="IIR2 INP2 Volume" value="84" />
+        <ctl name="IIR2 INP2 Volume" value="86" />
         <ctl name="RX3 MIX1 INP1" value="IIR2" />
         <ctl name="SLIM TX7 MUX" value="RMIX3" />
         <ctl name="DEC5 MUX" value="ADC2" />
@@ -2485,10 +2485,10 @@
         <ctl name="IIR1 INP2 MUX" value="DEC4" />
         <ctl name="IIR2 INP1 MUX" value="DEC5" />
         <ctl name="IIR2 INP2 MUX" value="DEC4" />
-        <ctl name="DEC5 Volume" value="84" />
-        <ctl name="DEC4 Volume" value="84" />
-        <ctl name="ADC2 Volume" value="10" />
-        <ctl name="ADC3 Volume" value="10" />
+        <ctl name="DEC5 Volume" value="86" />
+        <ctl name="DEC4 Volume" value="86" />
+        <ctl name="ADC2 Volume" value="12" />
+        <ctl name="ADC3 Volume" value="12" />
     </path>
 
     <path name="anc-on">
@@ -2506,8 +2506,8 @@
         <ctl name="HPHR Volume" value="20" />
         <ctl name="RX1 Digital Volume" value="77" />
         <ctl name="RX2 Digital Volume" value="77" />
-        <ctl name="ADC3 Volume" value="10" />
-        <ctl name="ADC2 Volume" value="10" />
+        <ctl name="ADC3 Volume" value="12" />
+        <ctl name="ADC2 Volume" value="12" />
         <ctl name="ANC1 FB MUX" value="EAR_HPH_L" />
     </path>
 
@@ -2531,17 +2531,17 @@
     </path>
 
     <path name="anc-type-0-bus-train-mode">
-        <ctl name="ANC Slot" value="3" />
+        <ctl name="ANC Slot" value="5" />
         <path name="anc-mux-on" />
     </path>
 
     <path name="anc-type-0-airplane-mode">
-        <ctl name="ANC Slot" value="4" />
+        <ctl name="ANC Slot" value="6" />
         <path name="anc-mux-on" />
     </path>
 
     <path name="anc-type-0-office-mode">
-        <ctl name="ANC Slot" value="5" />
+        <ctl name="ANC Slot" value="7" />
         <path name="anc-mux-on" />
     </path>
 
